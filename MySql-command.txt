@@ -27,9 +27,24 @@ constraints means limitations
 
 
  Data Types
-
+--------------
  enum;
  date xxyy - MM - DD
 
  date Time - hh:mm:55
  Year   YYYY 1901 to 2155
+
+   constraints
+ -----------------
+ 11. create table tablename 
+     (empid,name,age,salary)
+     values
+     (2,'Delip',4000);
+
+12.  insert into records (empid,name,age,salary) values (100,'Madhur',24,40000);
+13.  select * from records;
+14.  alter table records modify column age int not null;
+15.  delete from records where name="Madhur";
+16. alter table records
+    add constraint c1
+    check(empid is not null);
