@@ -1,0 +1,26 @@
+*****CommandLine Client Commands*****
+------------------
+1. Status;
+2. show databases;
+3. use databasename;
+4. show tables;
+5. describe user;
+6. select user from user;
+
+*****CRUD*****
+*****Work Banch*****
+---------------
+7.  CREATE DATABASE db1;
+8.  DROP DATABASE dbName;
+9.  DROP DATABASE if exist dbName;
+
+
+Each table in row called Records Records is collection of field
+constraints means limitations
+
+10 .  CREATE TABLE Records(
+    -> empid int,
+    -> name varchar(255),
+    -> age int,
+    -> salary float(10)
+    -> );
