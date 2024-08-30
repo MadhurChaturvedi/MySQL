@@ -24,3 +24,12 @@ constraints means limitations
     -> age int,
     -> salary float(10)
     -> );
+
+
+ Data Types
+
+ enum;
+ date xxyy - MM - DD
+
+ date Time - hh:mm:55
+ Year   YYYY 1901 to 2155
